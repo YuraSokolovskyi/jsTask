@@ -1,0 +1,22 @@
+{
+  "name": "jsfinal",
+  "version": "1.0.0",
+  "description": "js final",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "buid": "parcel build src/index.html",
+    "server": "json-server --watch db.json -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yura",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
